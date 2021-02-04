@@ -8,6 +8,7 @@ Author: Hamish Croser
 Finds the sum of all multiples of divisors below ceiling.
 divisors: list of ints - the output of the function is the sum of the multiples of the numbers within this list
 ceiling: int - only multiples below this number will be added
+output_sum: int - the sum of all multiples of divisors below ceiling
 """
 def sum_multiples(divisors, ceiling):
 	output_sum = 0
