@@ -22,7 +22,7 @@ def sum_multiples(divisors, ceiling):
 	return output_sum
 
 """
-Only function called directly by the program. This function calls sum_multiples() with required arguments, as provided
+Only function called directly by the program. This function calls sum_multiples() with required arguments as provided
 in the specification and prints the result.
 """
 def main():
