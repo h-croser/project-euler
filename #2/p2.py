@@ -22,7 +22,7 @@ def add_even_fibonacci(ceiling):
 	return output_sum
 
 """
-Only function called directly by the program. This function calls add_even_fibonacci() with the required argument
+Called directly by the program. This function calls add_even_fibonacci() with the required argument
 as provided in the specification and prints the result.
 """
 def main():
