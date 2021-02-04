@@ -31,4 +31,7 @@ def main():
 	sum = sum_multiples(divisors, ceiling)
 	print("Sum: {}".format(sum))
 
+import time
+start = time.time()
 main()
+print("Runtime: %.3f seconds" % (time.time() - start))
