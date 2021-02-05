@@ -25,12 +25,8 @@ candidate: int - the number that will be checked
 is_palindrome: boolean - will return True if the candidate is a palindrome
 """
 def is_palindrome(candidate):
-	digits = [int(i) for i in str(candidate)]
-	is_palindrome = True
-	for i in range(len(digits)):
-		if digits[i] != digits[-(i+1)]:
-			is_palindrome = False
-			break
+	str_cand = str(candidate)
+	is_palindrome = str_cand == str_cand[::-1]
 	return is_palindrome
 
 """
