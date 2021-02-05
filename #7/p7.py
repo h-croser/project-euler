@@ -12,7 +12,7 @@ prime_n: int - the nth prime.
 def find_nth_prime(n):
 	first = 2
 	primes = [first]
-	candidate = first
+	candidate = 3
 	while len(primes) < n:
 		is_prime = True
 		for p in primes:
@@ -20,7 +20,7 @@ def find_nth_prime(n):
 				is_prime = False
 		if is_prime:
 			primes.append(candidate)
-		candidate += 1
+		candidate += 2
 	prime_n = primes[-1]
 	return prime_n
 
