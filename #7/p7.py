@@ -16,8 +16,11 @@ def find_nth_prime(n):
 	while len(primes) < n:
 		is_prime = True
 		for p in primes:
+			if p > candidate**0.5:
+				break
 			if candidate % p == 0:
 				is_prime = False
+				break
 		if is_prime:
 			primes.append(candidate)
 		candidate += 2
