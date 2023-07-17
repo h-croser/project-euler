@@ -1,5 +1,5 @@
 # Project Euler Entries
-## Hamish Croser
+
 The folders in this repository contain my entries to the Project Euler problems. The problems can be found here: https://projecteuler.net/
 
 Entries are written in Python.
