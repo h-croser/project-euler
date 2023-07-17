@@ -4,8 +4,6 @@ The folders in this repository contain my entries to the Project Euler problems.
 
 Entries are written in Python.
 
-Each problem has a file named after the problem number such that problem 1 has a folder named \#1
-
-Each folder contains the files related to the entry with at least one file named after the problem so that problem 1 has a file named p1.py
+Each problem has a file named after the problem number such that problem 1 has a folder named \#001. Each folder contains the files related to the entry with at least one file named after the problem so that problem 1 has a file named p1.py
 
 p.py is a template for the entry files.
